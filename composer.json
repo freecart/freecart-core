@@ -1,0 +1,27 @@
+{
+  "name": "freecart/freecart-core",
+  "description": "Core Dependencies for FreeCart opensource Shopping CMS.",
+  "keywords": [
+    "cart",
+    "opensource",
+    "facile",
+    "freecart",
+    "shopping cart"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Prashant Rijal",
+      "email": "me@prashantrijal.com.np"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Facile\\": "/"
+    },
+    "files": [
+      "functions/facile.php"
+    ]
+  },
+  "minimum-stability": "dev"
+}
